@@ -1,0 +1,46 @@
+/*inheritance*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/*Select multiple elements*/
+header, footer {
+    background-color: #f90202; 
+}
+
+/*Class selector*/
+.site-title {
+    color: #fff;
+}
+
+/*Id selector*/
+#my-image {
+    box-shadow: 0 0 2px 1px black; 
+}
+
+/*Replace the bullets from the list of hobbies with squares*/
+ul.hobbies {
+    list-style-type: square;
+}
+
+/*nth-child selector*/
+ul.hobbies li:nth-child(odd) {
+    background-color: #ffeb12; /* Change this to your desired background color */
+}
+
+/*Remove Underline from Links*/
+nav a {
+    text-decoration: none;
+}
+
+/*Add Background and Border to Links*/
+nav a {
+    background-color: #EEE; 
+    border: 1px solid #999; 
+}
+
+/*Change the background colour on hover or focus state of the links*/
+nav a:hover, nav a:focus {
+    background-color: #DDD; 
+}
