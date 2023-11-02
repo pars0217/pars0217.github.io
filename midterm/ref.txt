@@ -1,4 +1,2 @@
-starfish image: https://www.pexels.com/photo/close-up-photo-of-purple-and-orange-starfish-2540698/
-starfish-small image: https://www.pexels.com/photo/a-person-holding-a-starfish-5859097/
 About starfish: https://en.wikipedia.org/wiki/Starfish#:~:text=Starfish%20are%20marine%20invertebrates.,is%20covered%20with%20overlapping%20plates.
 facts: https://www.pacificbeachcoalition.org/sea-star-fun-facts/
