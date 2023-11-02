@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="wrapper">
+
+      <!-- Added image of starfish using image tag with header tag-->
+      <header class="container">
+        <img src="images/lone-starfish-wide.jpg" alt="lone-starfish" title="lone-starfish">
+        <div><h1 class="site-title">Lone Starfish</h1></div>
+      </header>
+
+      <!--Created navigation menu-->
+      <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">STORY</a>
+        <a href="#">CONTACT</a>
+      </div>
+
+      <!--Added image for and wrapped text around it-->
+      <h2>Life of a Starfish</h2>
+      <article class="float">
+        <img src="images/lone-starfish.jpg" alt="coffee shop">
+        <p>Starfish or sea stars are star-shaped echinoderms belonging to the class Asteroidea. Common usage frequently finds these names being also applied to ophiuroids, which are correctly referred to as brittle stars or basket stars. Starfish are also known as asteroids due to being in the class Asteroidea. About 1,900 species of starfish live on the seabed in all the world's oceans, from warm, tropical zones to frigid, polar regions. They are found from the intertidal zone down to abyssal depths, at 6,000 m (20,000 ft) below the surface.
+
+        Starfish are marine invertebrates. They typically have a central disc and usually five arms, though some species have a larger number of arms. The aboral or upper surface may be smooth, granular or spiny, and is covered with overlapping plates. Many species are brightly coloured in various shades of red or orange, while others are blue, grey or brown. Starfish have tube feet operated by a hydraulic system and a mouth at the centre of the oral or lower surface. They are opportunistic feeders and are mostly predators on benthic invertebrates. Several species have specialized feeding behaviours including eversion of their stomachs and suspension feeding. They have complex life cycles and can reproduce both sexually and asexually. Most can regenerate damaged parts or lost arms and they can shed arms as a means of defense. The Asteroidea occupy several significant ecological roles. Starfish, such as the ochre sea star (Pisaster ochraceus) and the reef sea star (Stichaster australis), have become widely known as examples of the keystone species concept in ecology. The tropical crown-of-thorns starfish (Acanthaster planci) is a voracious predator of coral throughout the Indo-Pacific region, and the Northern Pacific seastar is on the list of the World's 100 Worst Invasive Alien Species.
+          
+        The fossil record for starfish is ancient, dating back to the Ordovician around 450 million years ago, but it is rather sparse, as starfish tend to disintegrate after death. Only the ossicles and spines of the animal are likely to be preserved, making remains hard to locate. With their appealing symmetrical shape, starfish have played a part in literature, legend, design and popular culture. They are sometimes collected as curios, used in design or as logos, and in some cultures, despite possible toxicity, they are eaten.</p>
+      </article>
+
+      <!--Added facts using all listing tags-->
+      <section>
+        <h2>Facts About Starfish</h2>
+        <ul>
+          <li>They have no brain and no blood.</li>
+          <li>Starfish is not their right name, they should always be called Sea Star!</li>
+          <li>There are around 2,000 species of sea star.</li>
+          <li>They cannot survive in fresh water.</li>
+        </ul>
+      </section>
+
+      <h2>Contact to learn more</h2>
+
+      <!--Created form with linked relative labels-->
+      <fieldset>
+        <form method="post" action="#">
+          <div class="form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message"></textarea><br>
+          </div>
+             
+          <h3>Would you like to visit the starfish?</h3>
+        
+          <!--Created radio buttons-->
+          <div class="radio-b">
+            <label class="radio-button" for="yes">Yes
+              <input type="radio" id="yes" name="yes" value="yes">
+            </label>
+
+            <label class="radio-button" for="no">No
+              <input type="radio" id="no" name="no" value="no">
+            </label>
+
+            <label class="radio-button" for="maybe">Maybe
+              <input type="radio" id="maybe" name="maybe" value="maybe"><br><br>
+            </label>
+          </div>
+
+          <!--Created send buttons-->
+          <div class="send-button">
+            <button type="button" value="send">SEND</button>
+          </div>
+
+        </form>
+      </fieldset>  
+      
+      <footer>
+        <p>&copy; Lone Starfish.</p>
+      </footer>
+    </div>          
 </body>
 </html>
